@@ -36748,13 +36748,13 @@ Use for any general purpose</text>
 <attribute name="NAME" x="275.336" y="33.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="278.384" y="33.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="J2" gate="G$1" x="246.38" y="256.54" smashed="yes" rot="MR0">
-<attribute name="NAME" x="248.926859375" y="249.57043125" size="1.27343125" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="248.92545" y="262.36565" size="1.27273125" layer="96" rot="MR0"/>
+<instance part="J2" gate="G$1" x="246.38" y="256.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="248.926859375" y="263.50956875" size="1.27343125" layer="95" rot="R180"/>
+<attribute name="VALUE" x="248.92545" y="250.71435" size="1.27273125" layer="96" rot="R180"/>
 </instance>
-<instance part="J6" gate="J$1" x="246.38" y="238.76" smashed="yes" rot="R180">
-<attribute name="VALUE" x="242.57" y="244.348" size="1.016" layer="96" font="vector"/>
-<attribute name="NAME" x="248.92" y="233.172" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J6" gate="J$1" x="246.38" y="238.76" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="242.57" y="233.172" size="1.016" layer="96" font="vector" rot="MR180"/>
+<attribute name="NAME" x="248.92" y="244.348" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="R2" gate="G$1" x="325.12" y="114.3" smashed="yes">
 <attribute name="NAME" x="325.12" y="115.824" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -37435,11 +37435,11 @@ Use for any general purpose</text>
 <pinref part="U1" gate="U1" pin="W"/>
 <wire x1="208.28" y1="236.22" x2="228.6" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="236.22" x2="228.6" y2="254" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="236.22" x2="238.76" y2="236.22" width="0.1524" layer="91"/>
-<junction x="228.6" y="236.22"/>
-<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="254" x2="238.76" y2="254" width="0.1524" layer="91"/>
-<pinref part="J6" gate="J$1" pin="3"/>
+<pinref part="J6" gate="J$1" pin="1"/>
+<wire x1="238.76" y1="236.22" x2="228.6" y2="236.22" width="0.1524" layer="91"/>
+<junction x="228.6" y="236.22"/>
 </segment>
 </net>
 <net name="V" class="0">
@@ -37447,11 +37447,11 @@ Use for any general purpose</text>
 <pinref part="U1" gate="U1" pin="V"/>
 <wire x1="226.06" y1="238.76" x2="208.28" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="238.76" x2="226.06" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="238.76" x2="238.76" y2="238.76" width="0.1524" layer="91"/>
-<junction x="226.06" y="238.76"/>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="256.54" x2="226.06" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J$1" pin="2"/>
+<wire x1="226.06" y1="238.76" x2="238.76" y2="238.76" width="0.1524" layer="91"/>
+<junction x="226.06" y="238.76"/>
 </segment>
 </net>
 <net name="U" class="0">
@@ -37459,11 +37459,11 @@ Use for any general purpose</text>
 <pinref part="U1" gate="U1" pin="U"/>
 <wire x1="208.28" y1="241.3" x2="223.52" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="241.3" x2="223.52" y2="259.08" width="0.1524" layer="91"/>
-<junction x="223.52" y="241.3"/>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="3"/>
 <wire x1="238.76" y1="259.08" x2="223.52" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="J6" gate="J$1" pin="1"/>
+<pinref part="J6" gate="J$1" pin="3"/>
 <wire x1="223.52" y1="241.3" x2="238.76" y2="241.3" width="0.1524" layer="91"/>
+<junction x="223.52" y="241.3"/>
 </segment>
 </net>
 <net name="POWER_IN" class="0">
