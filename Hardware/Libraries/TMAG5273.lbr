@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -352,18 +352,18 @@ the X, Y, and Z axes.
 &lt;p&gt;&lt;a href="https://www.ti.com/lit/ds/symlink/tmag5273.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1679672375534&amp;ref_url=https%253A%252F%252Fwww.mouser.co.uk%252F"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;/ul&gt;</description>
-<pin name="SCL" x="2.54" y="0" length="middle"/>
-<pin name="GND" x="2.54" y="-2.54" length="middle" direction="pas"/>
-<pin name="GND(TEST)" x="2.54" y="-5.08" length="middle" direction="in"/>
-<pin name="VCC" x="38.1" y="-5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="!INT" x="38.1" y="-2.54" length="middle" rot="R180"/>
-<pin name="SDA" x="38.1" y="0" length="middle" rot="R180"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="33.02" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="33.02" y1="-10.16" x2="33.02" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="33.02" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
-<text x="7.4676" y="5.5626" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="7.5946" y="-12.7254" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<pin name="SCL" x="-17.78" y="2.54" length="middle"/>
+<pin name="GND" x="-17.78" y="0" length="middle" direction="pas"/>
+<pin name="GND(TEST)" x="-17.78" y="-2.54" length="middle" direction="in"/>
+<pin name="VCC" x="17.78" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="!INT" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="SDA" x="17.78" y="2.54" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.1524" layer="94"/>
+<text x="-12.8524" y="8.1026" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-12.7254" y="-10.1854" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
