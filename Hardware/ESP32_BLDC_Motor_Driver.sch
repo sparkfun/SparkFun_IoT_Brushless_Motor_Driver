@@ -8,23 +8,23 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="29" name="tStop" color="15" fill="3" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="58" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="29" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="no"/>
@@ -32,8 +32,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -41,20 +41,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -36684,9 +36684,9 @@ the X, Y, and Z axes.
 <part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="USB_C" device="_4-LAYER_PADS"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="USB_C" device="_4-LAYER_PADS" value="USB-C Connector"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
-<part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".5_INCH"/>
+<part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".3_INCH" value="SFE_LOGO_FLAME.3_INCH"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="POWER_JACK" device="POWER_JACK_SLOT"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-SS14" value="1A/40V/500mV"/>
@@ -36764,8 +36764,8 @@ the X, Y, and Z axes.
 <part name="SHLD" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-10%-X7R-WE" value="0.1uF"/>
-<part name="J4" library="SparkFun-Connectors" deviceset="CONN_08" device="&quot;"/>
-<part name="J5" library="SparkFun-Connectors" deviceset="CONN_08" device="&quot;"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="CONN_08" device="&quot;" value="Breadboard Connector"/>
+<part name="J5" library="SparkFun-Connectors" deviceset="CONN_08" device="&quot;" value="Breadboard Headers"/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-10%-X7R-WE" value="0.1uF"/>
 <part name="U2" library="SparkFun-IC-Amplifiers" deviceset="OPA344" device="" value="OPA344"/>
@@ -36780,7 +36780,7 @@ the X, Y, and Z axes.
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="0.1in header"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
-<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN_DUAL" device="-MBT3904DW1T1"/>
+<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN_DUAL" device="-MBT3904DW1T1" value="NPN Transistors"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
@@ -36792,7 +36792,7 @@ the X, Y, and Z axes.
 <part name="U5" library="SparkFun-DiscreteSemi" deviceset="TVS_DIODE_ARRAY" device="_DT1042-04SO-7" value="ESD Diode"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D2" library="SparkFun-LED" deviceset="WS2812" device="_2020"/>
+<part name="STAT" library="SparkFun-LED" deviceset="WS2812" device="_2020"/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J7" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
 <part name="GND40" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -36801,7 +36801,7 @@ the X, Y, and Z axes.
 <part name="GND41" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4"/>
-<part name="J8" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="J8" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="Breakout Header"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="GND43" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_3MM"/>
@@ -36826,7 +36826,7 @@ the X, Y, and Z axes.
 <part name="GND38" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="100PF" device="-0603-50V-5%" value="100pF"/>
 <part name="R24" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
-<part name="LOGO5" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".2_INCH"/>
+<part name="LOGO5" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH" value="SFE_LOGO_NAME.1_INCH"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND46" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -36991,7 +36991,6 @@ Use for any general purpose</text>
 <instance part="H3" gate="G$1" x="426.72" y="27.94" smashed="yes"/>
 <instance part="H4" gate="G$1" x="429.26" y="27.94" smashed="yes"/>
 <instance part="J1" gate="J1" x="7.62" y="236.22" smashed="yes">
-<attribute name="VALUE" x="5.08" y="223.774" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
 <attribute name="NAME" x="5.08" y="246.634" size="1.397" layer="95" font="vector"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="347.98" y="50.8" smashed="yes"/>
@@ -37253,11 +37252,9 @@ Use for any general purpose</text>
 <attribute name="VALUE" x="168.148" y="239.141" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="J4" gate="G$1" x="281.94" y="251.46" smashed="yes">
-<attribute name="VALUE" x="276.86" y="239.014" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="276.86" y="264.668" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J5" gate="G$1" x="281.94" y="223.52" smashed="yes">
-<attribute name="VALUE" x="276.86" y="211.074" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="276.86" y="236.728" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND14" gate="1" x="116.84" y="152.4" smashed="yes">
@@ -37308,11 +37305,9 @@ Use for any general purpose</text>
 </instance>
 <instance part="Q2" gate="G1" x="312.42" y="109.22" smashed="yes" rot="R180">
 <attribute name="NAME" x="309.88" y="109.22" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="309.88" y="111.506" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="Q2" gate="G2" x="312.42" y="88.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="309.88" y="88.9" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="309.88" y="91.186" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="R16" gate="G$1" x="12.7" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.176" y="88.9" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -37354,7 +37349,7 @@ Use for any general purpose</text>
 <instance part="GND16" gate="1" x="63.5" y="213.36" smashed="yes">
 <attribute name="VALUE" x="63.5" y="213.106" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="D2" gate="G$1" x="313.182" y="23.114" smashed="yes">
+<instance part="STAT" gate="G$1" x="313.182" y="23.114" smashed="yes">
 <attribute name="NAME" x="313.69" y="28.702" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND31" gate="1" x="313.182" y="12.954" smashed="yes">
@@ -37383,7 +37378,6 @@ Use for any general purpose</text>
 <attribute name="NAME" x="303.53" y="182.118" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J8" gate="G$1" x="208.28" y="22.86" smashed="yes">
-<attribute name="VALUE" x="205.74" y="18.034" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="205.74" y="28.448" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="218.44" y="30.48" smashed="yes">
@@ -37808,7 +37802,7 @@ Use for any general purpose</text>
 </segment>
 <segment>
 <pinref part="GND31" gate="1" pin="GND"/>
-<pinref part="D2" gate="G$1" pin="GND"/>
+<pinref part="STAT" gate="G$1" pin="GND"/>
 <wire x1="313.182" y1="15.494" x2="313.182" y2="18.034" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -38407,7 +38401,7 @@ Use for any general purpose</text>
 <label x="20.32" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="VCC"/>
+<pinref part="STAT" gate="G$1" pin="VCC"/>
 <wire x1="313.182" y1="30.734" x2="313.182" y2="48.514" width="0.1524" layer="91"/>
 <wire x1="313.182" y1="48.514" x2="315.722" y2="48.514" width="0.1524" layer="91"/>
 </segment>
@@ -38662,7 +38656,7 @@ Use for any general purpose</text>
 </net>
 <net name="TP2" class="0">
 <segment>
-<pinref part="D2" gate="G$1" pin="DO"/>
+<pinref part="STAT" gate="G$1" pin="DO"/>
 <pinref part="TP2" gate="G$1" pin="1"/>
 <wire x1="323.342" y1="23.114" x2="325.882" y2="23.114" width="0.1524" layer="91"/>
 </segment>
@@ -38732,7 +38726,7 @@ Use for any general purpose</text>
 <label x="60.96" y="17.78" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="DI"/>
+<pinref part="STAT" gate="G$1" pin="DI"/>
 <wire x1="303.022" y1="23.114" x2="300.482" y2="23.114" width="0.1524" layer="91"/>
 <label x="300.482" y="23.114" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
@@ -39022,6 +39016,23 @@ Use for any general purpose</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,33.02,139.7,J7,1,GND,,,"/>
+<approved hash="104,1,33.02,142.24,J7,2,3.3V_LDO,,,"/>
+<approved hash="104,1,377.444,220.472,U8,VCC,3.3V_LDO,,,"/>
+<approved hash="115,1,292.862,47.244,3.3V_LDO,,,,,"/>
+<approved hash="115,1,326.644,267.462,3.3V_LDO,,,,,"/>
+<approved hash="115,1,5.08,41.91,3.3V_LDO,,,,,"/>
+<approved hash="115,1,5.08,67.31,3.3V_LDO,,,,,"/>
+<approved hash="115,1,402.844,252.222,3.3V_LDO,,,,,"/>
+<approved hash="115,1,359.664,253.492,3.3V_LDO,,,,,"/>
+<approved hash="115,1,397.764,220.472,3.3V_LDO,,,,,"/>
+<approved hash="115,1,15.24,190.5,3.3V_LDO,,,,,"/>
+<approved hash="115,1,39.37,187.96,3.3V_LDO,,,,,"/>
+<approved hash="115,1,389.89,172.72,3.3V_LDO,,,,,"/>
+<approved hash="115,1,46.99,142.24,3.3V_LDO,,,,,"/>
+<approved hash="115,1,313.182,39.624,3.3V_LDO,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
