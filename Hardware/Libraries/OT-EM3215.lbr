@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -62,16 +62,16 @@
 <library>
 <packages>
 <package name="OT-EM3215">
-<hole x="-8.876759375" y="5.125" drill="0.381"/>
-<hole x="0" y="-10.25" drill="0.381"/>
-<hole x="8.876759375" y="5.125" drill="0.381"/>
-<circle x="0" y="0" radius="10.25" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="16" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="5.75" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="2.95" width="0.1524" layer="21"/>
-<wire x1="0" y1="10" x2="0" y2="16" width="0.1524" layer="21"/>
-<wire x1="1.25" y1="10" x2="1.25" y2="16" width="0.1524" layer="21"/>
-<wire x1="-1.25" y1="10" x2="-1.25" y2="16" width="0.1524" layer="21"/>
+<hole x="-8.876759375" y="5.125" drill="1.778" locked="yes"/>
+<hole x="0" y="-10.25" drill="1.778"/>
+<hole x="8.876759375" y="5.125" drill="1.778"/>
+<circle x="0" y="0" radius="10.25" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="16" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="5.75" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="2.95" width="0.1524" layer="51"/>
+<wire x1="0" y1="10" x2="0" y2="16" width="0.1524" layer="51"/>
+<wire x1="1.25" y1="10" x2="1.25" y2="16" width="0.1524" layer="51"/>
+<wire x1="-1.25" y1="10" x2="-1.25" y2="16" width="0.1524" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -80,4 +80,10 @@
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
+</note>
+</compatibility>
 </eagle>

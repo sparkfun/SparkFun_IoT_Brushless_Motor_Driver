@@ -352,18 +352,18 @@ the X, Y, and Z axes.
 &lt;p&gt;&lt;a href="https://www.ti.com/lit/ds/symlink/tmag5273.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1679672375534&amp;ref_url=https%253A%252F%252Fwww.mouser.co.uk%252F"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;/ul&gt;</description>
-<pin name="SCL" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="SCL" x="12.7" y="2.54" length="short" rot="R180"/>
 <pin name="GND" x="-12.7" y="-2.54" length="short" direction="pas"/>
 <pin name="TEST" x="-12.7" y="0" length="short" direction="in"/>
 <pin name="VCC" x="-12.7" y="2.54" length="short" direction="pwr"/>
-<pin name="!INT" x="15.24" y="-2.54" length="short" rot="R180"/>
-<pin name="SDA" x="15.24" y="0" length="short" rot="R180"/>
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="94"/>
-<text x="-10.3124" y="8.1026" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-10.1854" y="-10.1854" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<pin name="!INT" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="SDA" x="12.7" y="0" length="short" rot="R180"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="94"/>
+<text x="-10.3124" y="5.5626" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-10.1854" y="-7.6454" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
