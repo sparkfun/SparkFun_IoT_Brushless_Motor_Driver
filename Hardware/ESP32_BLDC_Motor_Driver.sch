@@ -13452,27 +13452,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="1.5KOHM" prefix="R">
-<description>&lt;h3&gt;1.5kΩ resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08306"/>
-<attribute name="VALUE" value="1.5k"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="1KOHM" prefix="R">
 <description>&lt;h3&gt;1kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -21140,7 +21119,7 @@ the X, Y, and Z axes.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-" constant="no"/>
+<attribute name="PROD_ID" value="ROB-18440" constant="no"/>
 <attribute name="VALUE" value="TMAG5273" constant="no"/>
 </technology>
 </technologies>
@@ -21682,7 +21661,6 @@ Physical Characteristics:
 <part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U9" library="SparkFun-IC-Amplifiers" deviceset="LMV324" device="" value="LMV324"/>
 <part name="R21" library="SparkFun-Resistors" deviceset="20KOHM" device="-0603-1/10W-1%" value="20k"/>
-<part name="R20" library="SparkFun-Resistors" deviceset="1.5KOHM" device="-0603-1/10W-1%" value="1.5k"/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-10%-X7R-WE" value="0.1uF"/>
 <part name="GND56" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -21787,11 +21765,12 @@ Physical Characteristics:
 <part name="R22" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB" value="RED"/>
 <part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="3.3V_A" device=""/>
-<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V_A" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V_A" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V_A" device=""/>
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="3.3V_A" device=""/>
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" deviceset="3.3V_A" device=""/>
+<part name="R20" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22258,10 +22237,6 @@ that is used for the motor driver</text>
 <attribute name="NAME" x="279.4" y="135.636" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="289.56" y="135.636" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R20" gate="G$1" x="274.32" y="129.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="272.796" y="124.46" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="272.796" y="134.62" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
-</instance>
 <instance part="GND15" gate="1" x="274.32" y="119.38" smashed="yes">
 <attribute name="VALUE" x="274.32" y="119.126" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -22347,9 +22322,9 @@ that is used for the motor driver</text>
 <instance part="GND48" gate="1" x="381" y="86.36" smashed="yes">
 <attribute name="VALUE" x="381" y="86.106" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="U9" gate="G1" x="284.48" y="147.32" smashed="yes">
-<attribute name="NAME" x="284.48" y="150.622" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="284.48" y="142.24" size="1.778" layer="95" font="vector"/>
+<instance part="U9" gate="G1" x="284.48" y="147.32" smashed="yes" rot="MR180">
+<attribute name="NAME" x="284.48" y="144.018" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="284.48" y="152.4" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
 <instance part="U9" gate="G2" x="353.06" y="134.62" smashed="yes">
 <attribute name="NAME" x="353.06" y="137.922" size="1.778" layer="95" font="vector"/>
@@ -22641,9 +22616,6 @@ that is used for the motor driver</text>
 <instance part="SUPPLY26" gate="G$1" x="248.92" y="198.12" smashed="yes">
 <attribute name="VALUE" x="248.92" y="200.914" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="411.48" y="149.86" smashed="yes">
-<attribute name="VALUE" x="411.48" y="152.654" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
 <instance part="SUPPLY3" gate="G$1" x="322.58" y="248.92" smashed="yes">
 <attribute name="VALUE" x="322.58" y="251.714" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
@@ -22655,6 +22627,13 @@ that is used for the motor driver</text>
 </instance>
 <instance part="SUPPLY24" gate="G$1" x="307.34" y="264.16" smashed="yes">
 <attribute name="VALUE" x="307.34" y="266.954" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="R20" gate="G$1" x="274.32" y="129.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="272.796" y="127" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="272.796" y="134.62" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="411.48" y="149.86" smashed="yes">
+<attribute name="VALUE" x="411.48" y="152.654" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -22741,6 +22720,16 @@ that is used for the motor driver</text>
 <pinref part="I2C" gate="G$1" pin="2"/>
 <wire x1="313.944" y1="27.432" x2="313.944" y2="29.972" width="0.1524" layer="91"/>
 <pinref part="SUPPLY21" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G5" pin="P$V+"/>
+<wire x1="411.48" y1="144.78" x2="411.48" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="147.32" x2="411.48" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="147.32" x2="403.86" y2="147.32" width="0.1524" layer="91"/>
+<junction x="411.48" y="147.32"/>
+<wire x1="403.86" y1="147.32" x2="403.86" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -23195,9 +23184,9 @@ that is used for the motor driver</text>
 <junction x="381" y="226.06"/>
 </segment>
 <segment>
+<pinref part="U9" gate="G1" pin="+IN"/>
 <wire x1="276.86" y1="149.86" x2="274.32" y2="149.86" width="0.1524" layer="91"/>
 <label x="274.32" y="149.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U9" gate="G1" pin="-IN"/>
 </segment>
 </net>
 <net name="D" class="0">
@@ -23529,26 +23518,26 @@ that is used for the motor driver</text>
 <label x="342.9" y="182.88" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="292.1" y1="147.32" x2="294.64" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="147.32" x2="294.64" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="147.32" x2="297.18" y2="147.32" width="0.1524" layer="91"/>
-<junction x="294.64" y="147.32"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="289.56" y1="137.16" x2="294.64" y2="137.16" width="0.1524" layer="91"/>
 <label x="297.18" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U9" gate="G1" pin="OUT"/>
+<wire x1="292.1" y1="147.32" x2="294.64" y2="147.32" width="0.1524" layer="91"/>
+<junction x="294.64" y="147.32"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<wire x1="276.86" y1="144.78" x2="274.32" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="144.78" x2="274.32" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="137.16" x2="279.4" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="137.16" x2="274.32" y2="134.62" width="0.1524" layer="91"/>
 <junction x="274.32" y="137.16"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<pinref part="U9" gate="G1" pin="+IN"/>
+<pinref part="U9" gate="G1" pin="-IN"/>
+<wire x1="274.32" y1="144.78" x2="276.86" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SENSE_U" class="0">
@@ -24216,16 +24205,6 @@ that is used for the motor driver</text>
 <pinref part="MPWR" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="195.58" x2="248.92" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="SUPPLY26" gate="G$1" pin="3.3V_A"/>
-</segment>
-<segment>
-<pinref part="U9" gate="G5" pin="P$V+"/>
-<wire x1="411.48" y1="144.78" x2="411.48" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="411.48" y1="147.32" x2="411.48" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="411.48" y1="147.32" x2="403.86" y2="147.32" width="0.1524" layer="91"/>
-<junction x="411.48" y="147.32"/>
-<wire x1="403.86" y1="147.32" x2="403.86" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="SUPPLY2" gate="G$1" pin="3.3V_A"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="VS"/>

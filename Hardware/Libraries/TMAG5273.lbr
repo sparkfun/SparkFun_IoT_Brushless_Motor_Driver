@@ -391,7 +391,7 @@ the X, Y, and Z axes.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-" constant="no"/>
+<attribute name="PROD_ID" value="ROB-18440" constant="no"/>
 <attribute name="VALUE" value="TMAG5273" constant="no"/>
 </technology>
 </technologies>
