@@ -185,15 +185,16 @@
 <plain>
 <text x="-5.08" y="-13.335" size="1.778" layer="1" font="vector" ratio="15">Top Layer</text>
 <text x="7.62" y="-13.335" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">Bottom Layer</text>
-<text x="30.48" y="2.54" size="1.778" layer="51" font="vector">2.2mm Thickness
+<text x="30.48" y="2.54" size="1.778" layer="51" font="vector">1.2mm Thickness
 2-Layer
 1oz copper outer
 0.5oz copper inner
 Lead Free HASL</text>
 <wire x1="-14.097" y1="7.62" x2="14.097" y2="7.62" width="0.254" layer="20" curve="236.786039"/>
-<wire x1="-14.097" y1="7.62" x2="-5.334" y2="2.159" width="0.254" layer="20" curve="-165.583004"/>
-<wire x1="14.097" y1="7.62" x2="5.334" y2="2.159" width="0.254" layer="20" curve="166.762419"/>
-<wire x1="-5.334" y1="2.159" x2="5.334" y2="2.159" width="0.254" layer="20" curve="224.072454"/>
+<wire x1="-14.097" y1="7.62" x2="-6.223" y2="3.048" width="0.254" layer="20" curve="-182.184611"/>
+<wire x1="14.097" y1="7.62" x2="5.969" y2="3.429" width="0.254" layer="20" curve="182.143584"/>
+<wire x1="-6.223" y1="3.048" x2="5.969" y2="3.429" width="0.254" layer="20" curve="235.037595"/>
+<text x="-15.24" y="-1.27" size="1.778" layer="16" font="vector" ratio="15" rot="MR90">V10</text>
 </plain>
 <libraries>
 <library name="OT-EM3215">
