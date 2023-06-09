@@ -224,7 +224,7 @@
 <pin name="IN+" x="-12.7" y="2.54" length="middle" direction="in"/>
 <pin name="REF1" x="-12.7" y="-2.54" length="middle" direction="in"/>
 <pin name="REF2" x="-12.7" y="0" length="middle" direction="in"/>
-<pin name="NC" x="15.24" y="-7.62" length="middle" direction="nc" rot="R180"/>
+<pin name="NC" x="15.24" y="-7.62" length="middle" direction="pwr" rot="R180"/>
 <pin name="VS" x="-12.7" y="10.16" length="middle" direction="pwr"/>
 <pin name="GND" x="-12.7" y="-7.62" length="middle" direction="pwr"/>
 <pin name="OUT" x="15.24" y="5.08" length="middle" direction="out" rot="R180"/>
