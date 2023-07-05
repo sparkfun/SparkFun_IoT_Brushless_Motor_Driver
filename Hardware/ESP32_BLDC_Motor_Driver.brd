@@ -27,7 +27,7 @@
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -16855,11 +16855,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="U$28" library="output" package="#GND#17" value="" x="45.72" y="55.626" smashed="yes" rot="R90"/>
 <element name="U$58" library="output" package="#3V3#18" value="" x="43.18" y="55.626" smashed="yes" rot="R90"/>
-<element name="U9" library="SparkFun-IC-Amplifiers" package="SOT23-5" value="OPA344" x="72.39" y="35.56" smashed="yes">
-<attribute name="NAME" x="70.485" y="35.56" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="IC-08251" x="72.39" y="35.56" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="74.93" y="35.56" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-</element>
 <element name="R20" library="SparkFun-Resistors" package="0603" value="1k" x="76.2" y="35.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="76.962" y="35.56" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07856" x="76.2" y="35.56" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -16898,6 +16893,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$16" library="output" package="#3V3#18" value="" x="43.18" y="55.626" smashed="yes" rot="MR90"/>
 <element name="U$60" library="output" package="#GND#17" value="" x="45.72" y="55.626" smashed="yes" rot="MR90"/>
 <element name="U$32" library="output" package="#0##BOOT##0" value="" x="33.02" y="6.731" smashed="yes" rot="MR90"/>
+<element name="U9" library="SparkFun-IC-Amplifiers" package="SOT23-5" value="MCP6021T" x="72.39" y="35.56" smashed="yes">
+<attribute name="NAME" x="70.485" y="35.56" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="IC-12504" x="72.39" y="35.56" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="74.93" y="35.56" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+</element>
 </elements>
 <signals>
 <signal name="3.3V">
@@ -16984,7 +16984,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="U7" pad="6"/>
 <contactref element="U11" pad="6"/>
 <contactref element="J2" pad="2"/>
-<contactref element="U9" pad="5"/>
 <contactref element="U10" pad="6"/>
 <contactref element="C25" pad="1"/>
 <contactref element="C26" pad="1"/>
@@ -17023,8 +17022,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="67.945" y1="42.584" x2="67.437" y2="42.076" width="0.381" layer="1"/>
 <wire x1="67.437" y1="42.076" x2="66.675" y2="42.076" width="0.381" layer="1"/>
 <via x="67.945" y="43.434" extent="1-16" drill="0.3048"/>
-<wire x1="69.977" y1="36.918" x2="71.3821" y2="36.918" width="0.381" layer="1"/>
-<wire x1="71.3821" y1="36.918" x2="71.44" y2="36.8601" width="0.381" layer="1"/>
+<wire x1="71.3821" y1="36.918" x2="69.977" y2="36.918" width="0.381" layer="1"/>
 <wire x1="69.977" y1="36.918" x2="69" y2="36.918" width="0.381" layer="1"/>
 <wire x1="69" y1="36.918" x2="68.961" y2="36.957" width="0.381" layer="1"/>
 <via x="68.961" y="36.957" extent="1-16" drill="0.3048"/>
@@ -17038,6 +17036,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="76.835" y1="39.536" x2="76.874" y2="39.497" width="0.381" layer="1"/>
 <wire x1="76.874" y1="39.497" x2="77.851" y2="39.497" width="0.381" layer="1"/>
 <via x="77.851" y="39.497" extent="1-16" drill="0.3048"/>
+<contactref element="U9" pad="5"/>
+<wire x1="71.44" y1="36.8601" x2="71.3821" y2="36.918" width="0.381" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="J1" pad="GND"/>
@@ -17264,7 +17264,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="U10" pad="2"/>
 <contactref element="U11" pad="2"/>
 <contactref element="J2" pad="1"/>
-<contactref element="U9" pad="2"/>
 <contactref element="R20" pad="1"/>
 <via x="77.47" y="31.75" extent="1-16" drill="0.3048"/>
 <via x="57.15" y="37.719" extent="1-16" drill="0.3048"/>
@@ -17312,6 +17311,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="66.802" y="45.593" extent="1-16" drill="0.3048"/>
 <wire x1="63.9" y1="51.94" x2="63.9" y2="52.724" width="0.2032" layer="1"/>
 <wire x1="63.9" y1="52.724" x2="64.008" y2="52.832" width="0.2032" layer="1"/>
+<contactref element="U9" pad="2"/>
 </signal>
 <signal name="W">
 <contactref element="R34" pad="2"/>
@@ -17492,14 +17492,12 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="64.9" y1="52.54" x2="65.062" y2="52.54" width="0.3048" layer="1"/>
 <via x="66.04" y="51.562" extent="1-16" drill="0.3048"/>
 <wire x1="65.062" y1="52.54" x2="66.04" y2="51.562" width="0.3048" layer="1"/>
-<contactref element="U9" pad="3"/>
 <via x="74.1379" y="34.2599" extent="1-16" drill="0.3048"/>
 <via x="68.326" y="59.309" extent="1-16" drill="0.3048"/>
 <wire x1="68.326" y1="59.309" x2="74.549" y2="59.309" width="0.381" layer="16"/>
 <wire x1="78.994" y1="54.864" x2="74.549" y2="59.309" width="0.381" layer="16"/>
 <wire x1="74.1379" y1="34.2599" x2="78.994" y2="39.116" width="0.381" layer="16"/>
 <wire x1="78.994" y1="39.116" x2="78.994" y2="54.864" width="0.381" layer="16"/>
-<wire x1="73.34" y1="34.2599" x2="74.1379" y2="34.2599" width="0.381" layer="1"/>
 <wire x1="68.326" y1="59.309" x2="69.635" y2="59.309" width="0.508" layer="1"/>
 <wire x1="66.04" y1="51.562" x2="66.04" y2="54.3179" width="0.508" layer="16"/>
 <wire x1="64.9" y1="54.14" x2="65.4811" y2="54.14" width="0.3048" layer="1"/>
@@ -17508,6 +17506,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="66.04" y="54.3179" extent="1-16" drill="0.3048"/>
 <wire x1="66.04" y1="57.023" x2="66.04" y2="54.3179" width="0.508" layer="16"/>
 <wire x1="68.326" y1="59.309" x2="66.04" y2="57.023" width="0.508" layer="16"/>
+<contactref element="U9" pad="3"/>
+<wire x1="74.1379" y1="34.2599" x2="73.34" y2="34.2599" width="0.381" layer="1"/>
 </signal>
 <signal name="D">
 <contactref element="D5" pad="A"/>
@@ -17953,14 +17953,16 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="58.293" y1="33.147" x2="68.199" y2="33.147" width="0.2032" layer="1"/>
 <contactref element="R21" pad="2"/>
 <wire x1="68.199" y1="33.147" x2="69.342" y2="34.29" width="0.2032" layer="1"/>
-<contactref element="U9" pad="1"/>
-<wire x1="71.44" y1="34.2599" x2="71.44" y2="32.827" width="0.2032" layer="1"/>
-<wire x1="71.44" y1="32.827" x2="71.628" y2="32.639" width="0.2032" layer="1"/>
+<wire x1="71.628" y1="32.639" x2="71.44" y2="32.827" width="0.2032" layer="1"/>
 <wire x1="71.628" y1="32.639" x2="73.064" y2="32.639" width="0.2032" layer="1"/>
 <wire x1="73.445" y1="33.02" x2="74.715" y2="33.02" width="0.2032" layer="1"/>
 <wire x1="73.445" y1="33.02" x2="73.064" y2="32.639" width="0.2032" layer="1"/>
-<wire x1="69.342" y1="34.29" x2="71.4099" y2="34.29" width="0.2032" layer="1"/>
-<wire x1="71.4099" y1="34.29" x2="71.44" y2="34.2599" width="0.2032" layer="1"/>
+<wire x1="69.342" y1="34.29" x2="71.247" y2="34.29" width="0.2032" layer="1"/>
+<contactref element="U9" pad="1"/>
+<wire x1="71.247" y1="34.29" x2="71.4099" y2="34.29" width="0.2032" layer="1"/>
+<wire x1="71.44" y1="32.827" x2="71.44" y2="34.2599" width="0.2032" layer="1"/>
+<wire x1="71.44" y1="34.2599" x2="71.2771" y2="34.2599" width="0.2032" layer="1"/>
+<wire x1="71.2771" y1="34.2599" x2="71.247" y2="34.29" width="0.2032" layer="1"/>
 </signal>
 <signal name="SENSE_U">
 <contactref element="U1" pad="15"/>
@@ -18800,12 +18802,12 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <signal name="N$14">
 <contactref element="R20" pad="2"/>
 <contactref element="R21" pad="1"/>
-<contactref element="U9" pad="4"/>
 <wire x1="76.2" y1="34.71" x2="76.2" y2="34.798" width="0.2032" layer="1"/>
 <wire x1="76.2" y1="34.798" x2="74.1379" y2="36.8601" width="0.2032" layer="1"/>
-<wire x1="73.34" y1="36.8601" x2="74.1379" y2="36.8601" width="0.2032" layer="1"/>
 <wire x1="76.415" y1="33.02" x2="76.2" y2="33.235" width="0.2032" layer="1"/>
 <wire x1="76.2" y1="33.235" x2="76.2" y2="34.71" width="0.2032" layer="1"/>
+<contactref element="U9" pad="4"/>
+<wire x1="74.1379" y1="36.8601" x2="73.34" y2="36.8601" width="0.2032" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

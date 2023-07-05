@@ -35187,21 +35187,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="OPA344" prefix="U">
-<description>&lt;h3&gt;&lt;/h3&gt;
-&lt;p&gt;Single gate rail-to-rail output op-amp. Inputs extend 300mV past rails.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.ti.com/product/OPA344"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+<deviceset name="MCP6021">
+<description>&lt;h3&gt;MCP6021T-E/OT OP AMP&lt;/h3&gt;
+&lt;p&gt;Rail-to-rail input/output op-amp with 10 MHz bandwidth.&lt;/p&gt;
 &lt;h4&gt;SparkFun Products&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8883"&gt;SparkFun Low Current Sensor&lt;/a&gt; (SEN-08883)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12758"&gt;SparkFun Electret Microphone Breakout&lt;/a&gt; (BOB-12758)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12780"&gt;ZX Distance and Gesture Sensor&lt;/a&gt; (SEN-12780)&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G1" symbol="OP-AMP" x="-10.16" y="0"/>
 <gate name="G2" symbol="POWER_CONSORT" x="7.62" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23-5">
+<device name="T-E/OT" package="SOT23-5">
 <connects>
 <connect gate="G1" pin="+IN" pad="3"/>
 <connect gate="G1" pin="-IN" pad="4"/>
@@ -35211,8 +35209,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-08251" constant="no"/>
-<attribute name="VALUE" value="OPA344" constant="no"/>
+<attribute name="PROD_ID" value="IC-12504"/>
+<attribute name="VALUE" value="MCP6021T" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -35434,7 +35432,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="U9" library="SparkFun-IC-Amplifiers" deviceset="OPA344" device="" value="OPA344"/>
 <part name="GND46" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY31" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R20" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
@@ -35462,6 +35459,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND62" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY36" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY37" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="U9" library="SparkFun-IC-Amplifiers" deviceset="MCP6021" device="T-E/OT" value="MCP6021T"/>
 </parts>
 <sheets>
 <sheet>
@@ -36270,14 +36268,6 @@ for board development</text>
 <instance part="SUPPLY2" gate="G$1" x="246.38" y="116.84" smashed="yes">
 <attribute name="VALUE" x="246.38" y="119.634" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="U9" gate="G1" x="396.24" y="109.22" smashed="yes" rot="MR180">
-<attribute name="NAME" x="396.24" y="105.918" size="1.778" layer="95" font="vector" rot="MR180"/>
-<attribute name="VALUE" x="396.24" y="114.3" size="1.778" layer="95" font="vector" rot="MR180"/>
-</instance>
-<instance part="U9" gate="G2" x="370.84" y="96.52" smashed="yes">
-<attribute name="NAME" x="367.538" y="91.44" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="375.92" y="91.44" size="1.778" layer="95" font="vector" rot="R90"/>
-</instance>
 <instance part="GND46" gate="1" x="370.84" y="83.82" smashed="yes">
 <attribute name="VALUE" x="370.84" y="83.566" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -36362,6 +36352,14 @@ for board development</text>
 </instance>
 <instance part="SUPPLY37" gate="G$1" x="332.74" y="101.6" smashed="yes">
 <attribute name="VALUE" x="332.74" y="104.394" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="U9" gate="G1" x="396.24" y="109.22" smashed="yes" rot="MR180">
+<attribute name="NAME" x="394.208" y="115.062" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="393.954" y="104.902" size="1.778" layer="95" font="vector" rot="MR180"/>
+</instance>
+<instance part="U9" gate="G2" x="370.84" y="96.52" smashed="yes">
+<attribute name="NAME" x="367.538" y="91.44" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="375.92" y="91.44" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -36474,9 +36472,9 @@ for board development</text>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G2" pin="P$V+"/>
 <pinref part="SUPPLY31" gate="G$1" pin="3.3V"/>
 <wire x1="370.84" y1="104.14" x2="370.84" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G2" pin="P$V+"/>
 </segment>
 <segment>
 <pinref part="C25" gate="G$1" pin="1"/>
@@ -36855,8 +36853,8 @@ for board development</text>
 </segment>
 <segment>
 <pinref part="GND46" gate="1" pin="GND"/>
-<pinref part="U9" gate="G2" pin="P$V-"/>
 <wire x1="370.84" y1="86.36" x2="370.84" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G2" pin="P$V-"/>
 </segment>
 <segment>
 <pinref part="GND47" gate="1" pin="GND"/>
@@ -37035,9 +37033,9 @@ for board development</text>
 <junction x="381" y="231.14"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G1" pin="+IN"/>
 <wire x1="388.62" y1="111.76" x2="386.08" y2="111.76" width="0.1524" layer="91"/>
 <label x="386.08" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U9" gate="G1" pin="+IN"/>
 </segment>
 </net>
 <net name="D" class="0">
@@ -37374,9 +37372,9 @@ for board development</text>
 <wire x1="406.4" y1="109.22" x2="406.4" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="401.32" y1="101.6" x2="406.4" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G1" pin="OUT"/>
 <wire x1="403.86" y1="109.22" x2="406.4" y2="109.22" width="0.1524" layer="91"/>
 <junction x="406.4" y="109.22"/>
+<pinref part="U9" gate="G1" pin="OUT"/>
 </segment>
 </net>
 <net name="SENSE_U" class="0">
@@ -38028,8 +38026,8 @@ for board development</text>
 <wire x1="386.08" y1="101.6" x2="391.16" y2="101.6" width="0.1524" layer="91"/>
 <junction x="386.08" y="101.6"/>
 <pinref part="R21" gate="G$1" pin="1"/>
-<pinref part="U9" gate="G1" pin="-IN"/>
 <wire x1="386.08" y1="106.68" x2="388.62" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G1" pin="-IN"/>
 </segment>
 </net>
 </nets>
