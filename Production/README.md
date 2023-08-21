@@ -1,4 +1,4 @@
-SparkFun <PRODUCT NAME> Production Files
+SparkFun IoT Brushless Motor Driver Production Files
 =========================================
 
 

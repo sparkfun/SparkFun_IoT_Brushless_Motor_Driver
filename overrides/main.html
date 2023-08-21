@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- Adds file-eye icon to view hookup guide as a single page -->
+{% if "print_view.md" %}
+	<a href="/SparkFun_IoT_Brushless_Motor_Driver/print_view" title="View as Single-Page" class="md-content__button md-icon">
+		{% include ".icons/material/printer-eye.svg" %}
+	</a>
+{% endif %}
+
+{{ super() }}
+{% endblock content %}
