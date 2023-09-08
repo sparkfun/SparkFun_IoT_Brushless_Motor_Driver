@@ -276,13 +276,17 @@ In order to incorporate the TMAG5273 hall-effect sensor into the FOC algorithm, 
 			* In this configuration users would simply read the sensor's position, independently from incorporating the readings into the FOC algorithm.
 		* Incorporate it as the motor position sensor for FOC algorithm
 
-			```cpp
-			--8<-- "https://github.com/simplefoc/simplefoc.github.io/raw/master/docs/simplefoc_library/code/sensors/generic.md:88:97"
-			```
+			1. Initialize the sensor in the `setup()` loop:
 
-			```cpp
-			--8<-- "https://github.com/simplefoc/simplefoc.github.io/raw/master/docs/simplefoc_library/code/sensors/generic.md:113:115"
-			```
+				```cpp
+				--8<-- "https://github.com/simplefoc/simplefoc.github.io/raw/master/docs/simplefoc_library/code/sensors/generic.md:88:97"
+				```
+
+			2. Link the sensor in the `setup()` loop:
+
+				```cpp
+				--8<-- "https://github.com/simplefoc/simplefoc.github.io/raw/master/docs/simplefoc_library/code/sensors/generic.md:138:147"
+				```
 
 
 !!! info
@@ -291,6 +295,31 @@ In order to incorporate the TMAG5273 hall-effect sensor into the FOC algorithm, 
 
 ### In-line Current Sensing
 In order to incorporate the current sensing into the FOC algorithm, users will need to utilize the [`InlineCurrentSense` class](https://docs.simplefoc.com/inline_current_sense).
+
+`InlineCurrentSense`
+
+:   This class allows users to link a custom position sensor *(not already implemented in the SimpleFOC library)* by incorporating a few functions into their sketch.
+
+	1. Instantiate the `InlineCurrentSense` class and initialize the class by providing the hardware configuration.
+
+		--8<-- "https://github.com/simplefoc/simplefoc.github.io/raw/master/docs/simplefoc_library/code/current_sense/inline.md:38:46"
+
+	2. Incorporate the current sensor into the FOC algorithm:
+
+		1. Initialize the sensor in the `setup()` loop:
+
+			--8<-- "https://github.com/simplefoc/simplefoc.github.io/raw/master/docs/simplefoc_library/code/current_sense/inline.md:100:103"
+
+		2. Link the sensor to the motor driver in the `setup()` loop:
+
+			--8<-- "https://github.com/simplefoc/simplefoc.github.io/raw/master/docs/simplefoc_library/code/current_sense/inline.md:126:129"
+		
+		2. Link the sensor to the motor in the `setup()` loop:
+
+			--8<-- "https://github.com/simplefoc/simplefoc.github.io/raw/master/docs/simplefoc_library/code/current_sense/inline.md:138:141"
+
+		--8<-- "https://github.com/simplefoc/simplefoc.github.io/raw/master/docs/simplefoc_library/code/current_sense/inline.md:145:168"
+
 
 !!! info
 	For instructions on incorporating the `InlineCurrentSense` class, please refer to the [SimpleFOC documentation](https://docs.simplefoc.com/inline_current_sense).
