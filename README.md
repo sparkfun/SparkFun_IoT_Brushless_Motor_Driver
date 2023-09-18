@@ -18,9 +18,9 @@ Repository Contents
     * [assets](/docs/assets/) - Assets files
         * [arduino_examples](/docs/assets/arduino_examples/) - Example code
         * [board_files](/docs/assets/board_files/) - Files for the product design
-                * [Eagle design files](/docs/assets/board_files/eagle_files.zip) (.zip)
-                * [Schematic](/docs/assets/board_files/schematic.pdf) (.pdf)
-                * [Dimensions](/docs/assets/board_files/dimensions.pdf) (.pdf)
+            * [Eagle design files](/docs/assets/board_files/eagle_files.zip) (.zip)
+            * [Schematic](/docs/assets/board_files/schematic.pdf) (.pdf)
+            * [Dimensions](/docs/assets/board_files/dimensions.pdf) (.pdf)
         * [component_documentation](/docs/assets/component_documentation/) - Datasheets for hardware components
         * [img/hookup_guide/](/docs/assets/img/hookup_guide/) - Images for hookup guide documentation
 * **[/Hardware](/Hardware/)** - Eagle design files (.brd, .sch)
