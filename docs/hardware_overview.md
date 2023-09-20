@@ -3,11 +3,6 @@ icon: material/cog
 ---
 
 
-!!! info
-	Users should be aware that `GPIO 13` is connected to the `STAT` LED with a pull down resistor.
-
-
-
 ## Board Dimensions
 The board dimensions are illustrated in the drawing below; the listed measurements are in inches.
 
