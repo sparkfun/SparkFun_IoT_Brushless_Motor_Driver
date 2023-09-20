@@ -2,7 +2,6 @@ In this example, users will be utilizing the TMC6300 motor driver to spin the mo
 
 
 ## Example Code
-
 After installing and setting up the Arduino IDE and the Simple FOC Arduino library, users will need to upload the following example code using the **SparkFun ESP32 Thing Plus C** board definition. This code can be copied or downloaded below:
 
 <center>
@@ -15,8 +14,7 @@ After installing and setting up the Arduino IDE and the Simple FOC Arduino libra
 	```
 
 ### Running the Motor
-
-Be default, the motor should spin automatically. However, if users wish to control the speed of the motor, they can uncomment lines **21-22** and **56-57** of code and reprogram the board.
+By default, the motor should spin automatically. However, if users wish to control the speed of the motor, they can uncomment lines **21-22** and **56-57** of code and reprogram the board.
 
 ??? code "Code Changes Highlighted"
 	Uncomment the following lines of code (**21-22** and **56-57**):
