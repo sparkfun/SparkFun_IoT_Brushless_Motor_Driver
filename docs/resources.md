@@ -17,7 +17,7 @@
 		* [Installation](https://docs.simplefoc.com/library_download)
 		* [Supported Hardware](https://docs.simplefoc.com/supported_hardware)
 		* [Code Overview](https://docs.simplefoc.com/code)
-* :material-youtube: [SFE Product Showcase](https://youtu.be/c_TUwVMXtvM)
+* :material-youtube: [SFE Product Showcase](https://youtu.be/4GGIxnUDrU0)
 * :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_IoT_Brushless_Motor_Driver)
 
 
