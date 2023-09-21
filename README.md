@@ -43,7 +43,7 @@ Product Variants
 Version History
 ---------------
 
-* [v01](https://github.com/sparkfun/SparkFun_IoT_Brushless_Motor_Driver/releases/tag/v10) - Initial Release
+* [v10](https://github.com/sparkfun/SparkFun_IoT_Brushless_Motor_Driver/releases/tag/v10) - Initial Release
 
 
 License Information
