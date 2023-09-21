@@ -272,7 +272,7 @@
 
 
 /* ================================================================================== */
-/* YoutTube Videos                                                                    */
+/* YouTube Videos                                                                    */
 /* ================================================================================== */
 
 /* Auto adjust embedded youtube videos size */
@@ -284,6 +284,133 @@
   width: 100%;
 }
 .video iframe {
+  position: relative;
+  top: 0;
+  width: 60vw;
+  height: 33.75vw;
+  border: 0;
+  overflow: hidden;
+}
+
+/* Product Description */
+/* ================================================================================== */
+/* Smaller Card w/ Product Image */
+.video_desc {
+  position: relative;
+  width: 100%;
+}
+.video_desc iframe {
+  position: relative;
+  top: 0;
+  width: 16vw;
+  height: 9vw;
+  border: 0;
+  overflow: hidden;
+}
+/* Larger Card w/ Product Description */
+.video_desc2 {
+  position: relative;
+  width: 100%;
+}
+.video_desc2 iframe {
+  position: relative;
+  top: 0;
+  width: 30vw;
+  height: 16.875vw;
+  border: 0;
+  overflow: hidden;
+}
+
+/* Grid Cards */
+/* ================================================================================== */
+.video_cards {
+  position: relative;
+  width: 100%;
+}
+.video_cards iframe {
+  position: relative;
+  top: 0;
+  width: 16vw;
+  height: 9vw;
+  border: 0;
+  overflow: hidden;
+}
+
+/* Add compatibility for mobile devices */
+/* ================================================================================== */
+/* ================================================================================== */
+
+/* Double ToC */
+/* ================================================================================== */
+@media (max-width: 1220px) {
+  .video_desc iframe {
+    width: 16vw;
+    height: 9vw;
+    min-width: 200px;
+    min-height: 112.5px;
+  }
+  .video_cards iframe {
+    width: 16vw;
+    height: 9vw;
+    min-width: 200px;
+    min-height: 112.5px;
+  }
+}
+
+@media (min-width: 1220px) {
+  .video iframe {
+    width: 50vw;
+    height: 28.125vw;
+  }
+}
+
+@media (min-width:1600px) {
+  .video iframe {
+    width: 60vw;
+    height: 33.75vw;
+  }
+}
+
+/* Single ToC */
+/* ================================================================================== */
+@media (max-width: 960px) {
+  .video_desc iframe {
+    width: 20vw;
+    height: 11.25vw;
+    min-width: 200px;
+    min-height: 112.5px;
+  }
+  .video_cards iframe {
+    width: 20vw;
+    height: 11.25vw;
+    min-width: 200px;
+    min-height: 112.5px;
+  }
+}
+
+/* No ToC */
+/* ================================================================================== */
+@media (max-width: 750px) {
+  .video_desc iframe {
+    width: 60vw;
+    height: 33.75vw;
+  }
+  .video_desc2 iframe {
+    width: 60vw;
+    height: 33.75vw;
+  }
+}
+@media (max-width: 696px) {
+  .video_cards iframe {
+    width: 60vw;
+    height: 33.75vw;
+  }
+}
+
+
+
+
+/* .video iframe {
   position: relative;
   top: 0;
   width: 90vh;
@@ -305,40 +432,50 @@
   overflow: hidden;
 }
 
-
-
-/* Add compatibility for mobile devices */
-/* ================================================================================== */
-/* ================================================================================== */
+.video_desc2 {
+  position: relative;
+  width: 100%;
+}
+.video_desc2 iframe {
+  position: relative;
+  top: 0;
+  width: 90vh;
+  height: 47vw;
+  border: 0;
+  overflow: hidden;
+} */
 
 /* No ToC */
 /* ================================================================================== */
 /* Container/Article boarder: width = 1.6rem */
-@media (max-width: 960px) {
+/* @media (max-width: 960px) {
   .video iframe {
     width: 90vh;
     height: calc( (100vw - 1.6rem) * 0.9 * 0.5625);
   }
-}
+} */
 
 /* Grid Ratio: 1:1 */
 /* Container/Article boarder: width = 1.6rem */
 /* Grid element border: width = 1.6rem */
-@media (max-width: 750px) {
+/* @media (max-width: 750px) {
   .video_desc iframe {
     height: calc( ( (100vw - 1.6rem) - 1.6rem) * 0.5625);
   }
-}
+} */
 
 /* Grid Ratio: 35/65 */
 /* Container/Article border: width = 1.6rem */
 /* Grid gap: width = 0.4rem */
 /* Grid element border: width = 1.6rem */
-@media (min-width: 751px) {
+/* @media (min-width: 751px) {
   .video_desc iframe {
     height: calc( ( ( (100vw - 2rem) * 0.35) - 1.6rem) * 0.5625);
   }
-}
+  .video_desc2 iframe {
+    height: calc( ( ( (100vw - 2rem) * 0.65) - 1.6rem) * 0.5625);
+  }
+} */
 
 
 /* Single ToC */
@@ -349,17 +486,21 @@
 /* Grid element border: width = 1.6rem */
 
     /* height: 12.7vw; */
-@media (min-width: 960px) {
+/* @media (min-width: 960px) {
   .video iframe {
     width: 90vh;
     height: calc( ( (100vw - 12.1rem) - 2rem) * 0.9 * 0.5625);
     max-height: 458.66px;
-  }
+  } */
   /* Grid: 35/65 */
-  .video_desc iframe {
+  /* .video_desc iframe {
     height: calc( ( (100vw - 12.1rem - 2rem) * 0.35 - 1.6rem) * 0.5625);
   }
-}
+  .video_desc2 iframe {
+    height: calc( ( (100vw - 12.1rem - 2rem) * 0.65 - 1.6rem) * 0.5625);
+  }
+} */
+
 
 /* Double ToC */
 /* ================================================================================== */
@@ -368,18 +509,23 @@
 /* Grid gap: width = 0.4rem */
 /* Grid element border: width = 1.6rem */
 
-@media (min-width: 1219px) {
+/* @media (min-width: 1219px) {
   .video iframe {
     width: 90vh;
     height: calc( ( (100vw - 12.1rem * 2) - 2rem) * 0.9 * 0.5625);
     max-height: 458.66px;
-  }
+  } */
   /* Grid: 35/65 */
-  .video_desc iframe {
+  /* .video_desc iframe {
+    width: 20vw;
     height: calc( ( (100vw - 12.1rem * 2 - 2rem) * 0.35 - 1.6rem) * 0.5625);
     max-height: 458.66px;
   }
-}
+  .video_desc2 iframe {
+    height: calc( ( (100vw - 12.1rem * 2 - 2rem) * 0.65 - 1.6rem) * 0.5625);
+    max-height: 458.66px;
+  }
+} */
 
 
 
@@ -473,6 +619,9 @@
     display: none;
   }
 
+  .video_desc2 iframe {
+    display: none;
+  }
 
   /* ================================================================================== */
   /* Grid Cards                                                                         */
