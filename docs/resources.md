@@ -2,7 +2,11 @@
 
 * :sfe-logo: [Product Page](https://www.sparkfun.com/products/22132)
 * Component Documentation
+	* :fontawesome-solid-file-pdf: [ESP32 Module Datasheet](./assets/component_documentation/esp32-wroom-32e_datasheet_en.pdf)
 	* :fontawesome-solid-file-pdf: [TMC6300 Datasheet](./assets/component_documentation/TMC6300.pdf)
+	* :fontawesome-solid-file-pdf: [TMAG5273 Datasheet](./assets/component_documentation/TMAG5273.pdf)
+	* :fontawesome-solid-file-pdf: [INA240 Datasheet](./assets/component_documentation/INA240.pdf)
+	* :fontawesome-solid-file-pdf: [WS2812 Datasheet](./assets/component_documentation/WS2812.pdf)
 * :material-folder-cog: Design Files:
 	* :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf)
 	* :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
