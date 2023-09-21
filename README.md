@@ -24,7 +24,7 @@ Repository Contents
         * [component_documentation](/docs/assets/component_documentation/) - Datasheets for hardware components
         * [img/hookup_guide/](/docs/assets/img/hookup_guide/) - Images for hookup guide documentation
 * **[/Hardware](/Hardware/)** - Eagle design files (.brd, .sch)
-
+* **[/Production](/Production/)** - Production files
 
 Documentation
 --------------
