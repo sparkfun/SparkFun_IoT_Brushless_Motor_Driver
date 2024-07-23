@@ -35,7 +35,7 @@ jobs:
           fqbn: ${{ matrix.board.fqbn }}
           libraries: |
             - source-path: ./
-            - "Simple FOC"
+            - name: Simple FOC
           sketch-paths: |
             - Examples/IoT_Motor_WiFi_Access
           enable-warnings-report: true
