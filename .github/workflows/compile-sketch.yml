@@ -99,7 +99,7 @@ jobs:
           libraries: |
             - source-path: ./
           sketch-paths: |
-            - examples/IoT_Motor_WiFi_Access
+            - Examples/IoT_Motor_WiFi_Access
           enable-warnings-report: true
           enable-deltas-report: true
           verbose: true
